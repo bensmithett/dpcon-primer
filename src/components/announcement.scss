@@ -1,0 +1,15 @@
+$red: #f00;
+$blue: #00f;
+
+.announcement {
+  border: 3px solid $red;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 500px
+}
+
+.announcement__text {
+  color: $blue;
+  font-family: sans-serif;
+  text-align: center
+}
