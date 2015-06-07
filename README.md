@@ -24,6 +24,6 @@ Hi! So you're coming to the [**Hands on with the modern front end stack**](http:
 
 ### If you encounter problems
 
-If you're getting an error, do a quick Google or StackOverflow search. If you can't find a solution, open an issue on this repo and I'll help you figure it out!
+If you have problems and can't install & run the project as above, open an issue on this repo or email ben@bensmithett.com and I'll help you figure it out!
 
-I'm a Mac user. If you're on Windows, please double check you can run this project prior to attending the workshop & let me know if you can't - I won't be much help if you have any Node/Windows issues on the day! :smile: 
+I'm a Mac user. If you're on Windows, please double check you can run this project prior to attending the workshop & let me know if you can't - I won't be much help if you have any Windows-specific issues on the day! :smile: 
