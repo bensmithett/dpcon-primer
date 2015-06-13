@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./announcement.scss";
+import "./announcement.css";
 
 export default class Announcement extends Component {
   render () {

@@ -18,7 +18,7 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   resolve: {
-    extensions: ["", ".js"]
+    extensions: ["", ".js", ".css"]
   },
   module: {
     loaders: [
@@ -28,8 +28,8 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.scss$/,
-        loader: "style!css!sass"
+        test: /\.css$/,
+        loader: "style!css"
       }
     ]
   }
