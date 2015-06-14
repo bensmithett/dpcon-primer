@@ -12,6 +12,9 @@ Hi! So you're coming to the [**Hands on with the modern front end stack**](http:
   v0.12.4
   ```
 - Clone or download this repo, `cd` into it & run `npm install` to install dependencies.
+  - **Important note:** Some of the tools we'll use depend on [node-gyp](https://github.com/TooTallNate/node-gyp), which has its own platform-specific dependencies. Instructions for both Mac & Windows are [here](https://github.com/TooTallNate/node-gyp#installation), but in a nutshell:
+    - **Mac:** You'll need Xcode & the Command Line Tools
+    - **Windows:** Requirements vary depending on your version, check the [instructions](https://github.com/TooTallNate/node-gyp#installation)
 - Run `npm start`. This will start a [Webpack dev server](http://webpack.github.io/docs/webpack-dev-server.html). You should see something like this in your terminal if it started correctly:
 
   ![terminal](doc/server-screenshot.png)
