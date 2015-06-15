@@ -1,0 +1,3 @@
+- Initialise a new package.json in this directory with npm init
+- Search npm for React with npm search
+- Install & save React to this project

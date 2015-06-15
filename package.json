@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "03": "webpack --config ./03_webpack/webpack.config.js",
+    "04": "node ./04_photo_app/server.js"
   },
   "repository": {
     "type": "git",
