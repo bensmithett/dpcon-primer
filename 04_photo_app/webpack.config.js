@@ -1,5 +1,5 @@
-var path = require('path');
-var webpack = require('webpack')
+var path = require('path')
+// var webpack = require('webpack')
 
 module.exports = {
   entry: [path.join(__dirname, 'src/entry.js')],
@@ -16,7 +16,7 @@ module.exports = {
     loaders: [
       {
         test: /\.js$/,
-        loaders: ["react-hot", "babel"],
+        loaders: ["babel"],
         exclude: /node_modules/
       }
     ]
