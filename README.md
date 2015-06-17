@@ -2,7 +2,7 @@ Hi! So you're coming to the [**Hands on with the modern front end stack**](http:
 
 **You'll need to bring a laptop capable of running this project as per the instructions below.** 
 
-As long as you can get the *Minimum Setup* working, you'll be able to participate in most of the tutorial. You should try to get the *Preferred Setup* working so you can get the most out of the tutorial, but if you have problems don't worry!
+As long as you can get the *Minimum Setup* working, you'll be able to participate in most of the tutorial. You should try to get the *Preferred Setup* working so you can get the most out of all the tools, but if you have problems don't worry - it's not essential!
 
 ## Minimum Setup instructions
 
