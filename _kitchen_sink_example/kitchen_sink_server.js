@@ -1,11 +1,12 @@
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
-var config = require('./webpack.config');
+var config = require('./kitchen_sink.webpack.config');
 
 new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,
   historyApiFallback: true,
+  contentBase: __dirname,
   stats: {
     colors: true
   }
