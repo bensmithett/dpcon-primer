@@ -6,7 +6,7 @@ module.exports = {
   entry: [
     "webpack-dev-server/client?http://localhost:3000",
     "webpack/hot/only-dev-server",
-    "./src/index"
+    "kitchen_sink_entry"
   ],
   output: {
     path: path.join(__dirname, "dist"),
@@ -18,7 +18,8 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   resolve: {
-    extensions: ["", ".js", ".css"]
+    extensions: ["", ".js", ".css"],
+    modulesDirectories: ["_kitchen_sink_example", "node_modules"]
   },
   module: {
     loaders: [
