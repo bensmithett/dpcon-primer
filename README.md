@@ -2,7 +2,7 @@ Hi! So you're coming to the [**Hands on with the modern front end stack**](http:
 
 **You'll need to bring a laptop capable of running this project as per the instructions below.** 
 
-As long as you can get the *Minimum Setup* working, you'll be able to participate in most of the tutorial. You should try to get the *Preferred Setup* working so you can get the most out of all the tools, but if you have problems don't worry - it's not essential!
+As long as you can get the *Minimum Setup* working, you'll be able to participate in the tutorial. You should try to get the *Preferred Setup* working so you can get the entire stack running, but if you have problems don't worry - it's not essential!
 
 ## Minimum Setup instructions
 
@@ -14,6 +14,7 @@ As long as you can get the *Minimum Setup* working, you'll be able to participat
   v0.12.4
   ```
 - Clone or download this repo in advance, just in case the conference wifi gives us trouble!
+- `npm install http-server` (optional - if you know how to run a static server on your laptop you don't need this!)
 
 ## Preferred Setup instructions
 
