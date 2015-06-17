@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./_kitchen_sink_example/kitchen_sink_server.js",
     "03": "webpack --config ./03_webpack/webpack.config.js",
-    "04": "node ./04_photo_app/server.js"
+    "app": "node ./app/server.js"
   },
   "repository": {
     "type": "git",
