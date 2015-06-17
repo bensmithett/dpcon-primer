@@ -4,23 +4,20 @@
     <title>Offical DPC Photo App</title>
   </head>
   <body>
-    
+    <div class="app-shell"></div>
+    <script src="/build/bundle.js"></script>
 
-    <!--<script src="/build/bundle.js"></script>-->
 
     <!--
+      ***** ALTERNATIVE *****
       If you can't get Webpack working, you can still write ES6 using Babel's in-browser compiler.
-      NOTE: Don't use the browser compiler in production! It's 1.4MB!
-
       Comment out the script tag above, then un-comment the following lines:
     -->
 
+    <!--
     <script src="non_webpack_version/react.js"></script>
     <script src="non_webpack_version/babel_browser.js"></script>
-    <script type="text/babel">
-      const foo = <div className="foo" />
-
-      console.log(foo)
-    </script>
+    <script type="text/babel" src="non_webpack_version/non_webpack_bundle.js"></script>
+    -->
   </body>
 </html>
