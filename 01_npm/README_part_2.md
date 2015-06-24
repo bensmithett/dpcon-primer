@@ -1,0 +1,2 @@
+- Run `npm test` and inspect the output
+- Install the http-server package from npm, then add a new npm script to package.json to run it on port 1337
