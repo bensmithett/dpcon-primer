@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./_kitchen_sink_example/kitchen_sink_server.js",
     "03": "webpack --config ./03_webpack/webpack.config.js",
-    "app": "node ./app/server.js"
+    "app": "node ./app/server.js",
+    "app-hmr": "node ./app/server.hmr.js"
   },
   "repository": {
     "type": "git",
