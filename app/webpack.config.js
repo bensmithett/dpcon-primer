@@ -8,7 +8,7 @@ module.exports = {
     publicPath: '/build/'
   },
   resolve: {
-    extensions: ['', '.js'],
+    extensions: ['', '.js', '.css'],
     modulesDirectories: ['app', 'node_modules']
   },
   module: {
@@ -16,6 +16,11 @@ module.exports = {
       {
         test: /\.js$/,
         loaders: ["babel"],
+        exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        loader: "style!css",
         exclude: /node_modules/
       }
     ]
