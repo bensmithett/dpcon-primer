@@ -6,7 +6,8 @@
     "start": "node ./_kitchen_sink_example/kitchen_sink_server.js",
     "03": "webpack --config ./03_webpack/webpack.config.js",
     "app": "node ./app/server.js",
-    "app-hmr": "node ./app/server.hmr.js"
+    "app-hmr": "node ./app/server.hmr.js",
+    "isomorphic": "webpack --config ./app/webpack.config.isomorphic.js && http-server ./app/build/"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,12 @@
     "babel-core": "^5.4.7",
     "babel-loader": "^5.1.3",
     "css-loader": "^0.14.4",
+    "express": "^4.13.0",
     "extract-text-webpack-plugin": "^0.8.1",
     "file-loader": "^0.8.4",
     "http-server": "^0.8.0",
     "npm": "^2.11.1",
+    "null-loader": "^0.1.1",
     "raw-loader": "^0.5.1",
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.7",
