@@ -1,3 +1,9 @@
+**UPDATE:** The slides from the workshop are now in this repo (slides.pdf) and there's a [solutions branch](https://github.com/bensmithett/dpcon-primer/compare/solutions) with all of my live-coding from the workshop.
+
+Thanks for coming! :sparkles:
+
+<hr />
+
 Hi! So you're coming to the [**Hands on with the modern front end stack**](http://www.phpconference.nl/schedule#tutorial-day/hands-modern-front-end-stack) workshop at Dutch PHP Conference?
 
 **You'll need to bring a laptop capable of running this project as per the instructions below.** 
